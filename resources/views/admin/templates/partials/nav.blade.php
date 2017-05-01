@@ -1,5 +1,4 @@
 
-
 <nav class="navbar navbar-default" role="navigation">
   <!-- El logotipo y el icono que despliega el menú se agrupan
        para mostrarlos mejor en los dispositivos móviles -->
@@ -20,7 +19,7 @@
     <ul class="nav navbar-nav">
       <li><a href=''>Inicio</a></li>
       <li><a href="{{ route('users.index') }}">Usuarios</a></li>
-      <li><a href="#">Categorias</a></li>
+      <li><a href="{{ route('categories.index') }}">Categorias</a></li>
       <li><a href="#">Articulos</a></li>
       
     </ul>
